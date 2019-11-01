@@ -1,2 +1,24 @@
 # i3-config
 My simple configuration for i3wm.
+
+## Pre-Installation
+
+#### scrot (for screenshot)
+``` sudo apt-get install scrot ```
+
+#### alsamixer (for volume controls)
+``` sudo apt-get install alsa alsa-tools ```
+
+#### light (for controlling brightness)
+* Download the file from [here](https://github.com/haikarainen/light/releases/).
+
+* Run the following commands.
+``` 
+tar xf light-x.yy.tar.gz
+cd light-x.yy/
+./configure && make
+sudo make install 
+```
+If you face any problems while installing light, please refer [here](https://github.com/haikarainen/light).
+
+After installing these packages, place the configuration file in .config/i3/config
